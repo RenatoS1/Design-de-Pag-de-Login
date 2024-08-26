@@ -1,0 +1,121 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+body {
+    font-family: "Mulish", sans-serif;
+    background-image: linear-gradient(to right, rgb(6, 6, 6), #006040);
+    overflow-x: hidden; /* Retirou a rolagem lateral*/
+}
+
+
+main {
+    background-image: linear-gradient(to center, rgb(6, 6, 6), #006040);
+    color: white;
+    padding: 30px;
+    margin: auto;
+    width:300px;
+    border-radius: 10px;
+}
+
+main > h3 {
+    text-indent: -10px;
+    margin-bottom: 30px;
+    font-size: 1.5em;
+    color:rgb( 99 , 179 , 127 ) ;
+}
+
+main > article {
+    height: 420px;
+}
+
+main > article > form > p > input{
+    width: 250px;
+    height:36px ;
+    border-radius: 10px;
+    border: none;
+}
+main > article > form > p > input#entrar{
+    width: 254px;
+    height:36px ;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: rgb( 99 , 179 , 127 );
+}
+
+main > article > p > img {
+    background-color: white;
+    border-radius: 50%;
+    height: 30px;
+    margin-right:14px;
+    position: relative;
+    top: 10px;
+    left: 70px;
+}
+main > article > a.link , form > a.link{
+    text-align: right;
+    color: white;
+}
+
+div#cartao {
+    height: 520px;
+    width: 320px;
+    border: 2px solid white;
+    background-color: rgb( 99 , 179 , 127 );
+    border-radius: 10px 20px 20px 20px;
+    border:none ;
+    padding: 20px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+    box-shadow: 7px -5px 12px 3px rgba(59, 51, 51, 0.26);
+}
+
+div#cartao > div#setinhas {
+    position:absolute ;
+    top: 76%;
+    left: 8%;
+    display: flex;
+    
+}
+div#cartao > div#setinhas > div#seta1 {
+    background-color:rgb( 219 , 251 , 239 ) ;
+    width: 30px;
+    height: 20px;
+    background-image: url('imagens/esquerda.png');
+    background-position: center;
+    background-size:60%;
+    background-repeat: no-repeat;
+    padding: 5px;
+    border-radius: 5px;
+    
+}
+div#cartao > div#setinhas > div#seta2 {
+    background-color:rgb(18 , 40 , 28 );
+    width: 30px;
+    height: 20px;
+    background-image: url('imagens/direita.png');
+    background-position: center;
+    background-size:60%;
+    background-repeat: no-repeat;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+main > div#cartao > h2 {
+    font-size: 2em;
+    text-indent: 10px;
+    text-align: left;
+
+}
+
+main > div#cartao > div#minicartao {
+    background-color: aliceblue;
+    margin-top: 100px;
+    color: black;
+    border-radius: 30px;
+    padding: 20px;
+    
+}
