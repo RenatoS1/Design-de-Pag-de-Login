@@ -84,7 +84,7 @@ div#cartao > div#setinhas > div#seta1 {
     background-color:rgb( 219 , 251 , 239 ) ;
     width: 30px;
     height: 20px;
-    background-image: url('imagens/esquerda.png');
+    background-image: url('../imagens/esquerda.png');
     background-position: center;
     background-size:60%;
     background-repeat: no-repeat;
@@ -96,7 +96,7 @@ div#cartao > div#setinhas > div#seta2 {
     background-color:rgb(18 , 40 , 28 );
     width: 30px;
     height: 20px;
-    background-image: url('imagens/direita.png');
+    background-image: url('../imagens/direita.png');
     background-position: center;
     background-size:60%;
     background-repeat: no-repeat;
@@ -115,7 +115,96 @@ main > div#cartao > div#minicartao {
     background-color: aliceblue;
     margin-top: 100px;
     color: black;
-    border-radius: 30px;
+    border-radius: 20px;
     padding: 20px;
+}
+main > article > a.link , form > a.link{
+    text-align: right;
+
+    color: white;
+}
+ 
+
+
+
+@media screen and (min-width:768px) and (max-width:991px){
+    body {
+        width: 700px;
+
+    }
+    main {
+        width: 750px;
+    }
+    div#cartao  {
+        width: 750px;
+        position: absolute;
+        margin-top: 10px;
+    }
+    div#cartao > div#setinhas {
+        position:absolute ;
+        top: 54%;
+        left: 8%;
+        display: flex;
+        
+    }
+    div#cartao > div#setinhas > div#seta1 {
+        position: relative;
+        left: -5px;
+    }
+    div#cartao > div#setinhas > div#seta2 {
+        position: relative;
+        right:-5px;
+    }
+    main > article > form > p > input {
+        width: 700px;
+    }
+
+    main > h3 {
+        text-align: center;
+        font-size: 2em;
+        margin-top: 5px;
+    }
+
+    main > article > form > p > input{
+        width: 500px;
+        height:50px ;
+        border-radius: 10px;
+        border: none;
+    }
+    main > article > form > p > input#entrar{
+        width:504px ;
+        height:50px ;
+
+    }
+
+    main > article > p > img {
+        background-color: white;
+        border-radius: 50%;
+        height: 30px;
+        margin-right:14px;
+        position: relative;
+        top: 336px;
+        left: 320px;
+    }
+    main > article > a.link , form > a.link{
+    font-size: 1.2em;        
+    }
+    main > article > form {
+        position: absolute;
+        left:20% ;
+    }
     
+    main > article > p {
+        text-align: center;
+        font-size: 1.3em;
+    }
+
+    main > article > form > label {
+        font-size: 1.2em;
+    }
+    main > article > a.link {
+        position: relative;
+        top:50px;
+        left:-90px;
+    }
 }
