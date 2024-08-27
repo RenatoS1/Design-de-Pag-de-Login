@@ -139,6 +139,7 @@ main > article > a.link , form > a.link{
         width: 750px;
         position: absolute;
         margin-top: 10px;
+        
     }
     div#cartao > div#setinhas {
         position:absolute ;
@@ -206,5 +207,19 @@ main > article > a.link , form > a.link{
         position: relative;
         top:50px;
         left:-90px;
+    }
+    main > div#cartao > p {
+        font-size: 1.2em;
+    }
+
+    main > div#cartao > div#minicartao > div#estrela {
+        width: 50px;
+        height: 50px;
+        background-color: black;
+        position: relative;
+        top: -21px;
+        left: 96%;
+        border-radius: 50%;
+
     }
 }
