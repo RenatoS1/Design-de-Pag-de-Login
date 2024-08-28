@@ -18,11 +18,12 @@ main {
     border-radius: 10px;
 }
 
-main > h3 {
+header > h3 {
+
     text-indent: -10px;
-    margin-bottom: 30px;
-    font-size: 1.5em;
+    font-size: 1.8em;
     color:rgb( 99 , 179 , 127 ) ;
+    text-align: center;
 }
 
 main > article {
@@ -123,7 +124,23 @@ main > article > a.link , form > a.link{
 
     color: white;
 }
- 
+main > div#cartao > div#minicartao > div#estrela {
+    width: 50px;
+    height: 50px;
+    background-color: #006040;
+    position: relative;
+    top: -31px;
+    left: 96%;
+    border-radius: 50%;
+}
+main > div#cartao > div#minicartao > div#estrela > img {
+    position: relative;
+    top: 1%;
+    left: 1%;
+    width: 50px;
+    height: 50px;
+}
+
 
 
 
@@ -138,7 +155,7 @@ main > article > a.link , form > a.link{
     div#cartao  {
         width: 750px;
         position: absolute;
-        margin-top: 10px;
+        margin-top: 70px;
         
     }
     div#cartao > div#setinhas {
@@ -160,9 +177,9 @@ main > article > a.link , form > a.link{
         width: 700px;
     }
 
-    main > h3 {
+    header > h3 {
         text-align: center;
-        font-size: 2em;
+        font-size: 2.5em;
         margin-top: 5px;
     }
 
@@ -185,14 +202,14 @@ main > article > a.link , form > a.link{
         margin-right:14px;
         position: relative;
         top: 336px;
-        left: 320px;
+        left: 3px;
     }
     main > article > a.link , form > a.link{
     font-size: 1.2em;        
     }
     main > article > form {
         position: absolute;
-        left:20% ;
+        left:19% ;
     }
     
     main > article > p {
@@ -206,20 +223,26 @@ main > article > a.link , form > a.link{
     main > article > a.link {
         position: relative;
         top:50px;
-        left:-90px;
+        left:-130px;
     }
     main > div#cartao > p {
         font-size: 1.2em;
     }
 
     main > div#cartao > div#minicartao > div#estrela {
-        width: 50px;
-        height: 50px;
-        background-color: black;
+        width: 70px;
+        height: 70px;
+        background-color: #006040;
         position: relative;
-        top: -21px;
+        top: -31px;
         left: 96%;
         border-radius: 50%;
-
     }
+
+    main > div#cartao > div#minicartao > div#estrela > img {
+        position: relative;
+        top: 13%;
+        left: 15%;
+    }
+
 }
