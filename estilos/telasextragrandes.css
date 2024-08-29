@@ -1,140 +1,143 @@
-@charset "UTF-8";
-body {
-    background-color: #005C56;
-}
+@media screen and (min-width:991px) {
+    body {
 
+    }
+    main {
+        width: 750px;
+    }
+    div#cartao  {
+        position: absolute;
+        top: 10%;
+        left: 77%;
+        width: 500px;
+        height: 700px;
+        
+    }
+    div#cartao > div#setinhas {
+        position:absolute ;
+        top: 51%;
+        left: 8%;
+        display: flex;
+        
+    }
+    div#cartao > div#setinhas > div#seta1 {
+        position: relative;
+        left: -5px;
+    }
+    div#cartao > div#setinhas > div#seta2 {
+        position: relative;
+        right:-5px;
+    }
+    main > article > form > p > input {
+        width: 700px;
+    }
 
-main {
-    height: 100vh;
-    width: 100vw;
-}
-header > h3 {
-    text-align:  left;
-    text-indent: 30px;
-    font-size: 4em;
-    color:rgb( 99 , 179 , 127 ) ;
-    position: relative;
-    top: -30px;
-    padding: 20px;
+    header > h3 {
+        margin: 40px;
+        text-align: left;
+        font-size: 2.7em;
+        margin-top: 5px;
+    }
 
-}
+    main > article > form > p > input{
+        width: 600px;
+        height:57px ;
+        border-radius: 10px;
+        border: none;
+    }
+    main > article > form > p > input#entrar{
+        width:604px ;
+        height:57px ;
+        font-size: 2em;
 
-main > article {
-    padding: 20px;
-    position: relative;
-    top:-16%; 
-    left: ;   
-    background-image: url('../imagens/cartao.jpg');
+    }
+
+    main > article > p > img {
+        background-color: white;
+        border-radius: 50%;
+        height: 60px;
+        margin-right:14px;
+        position: relative;
+        top: 450px;
+        left: -13%;
+    }
+    main > article > a.link > p {
+    font-size: 1.1em; 
+    position: relative; 
+    top: 100%;   
+    left: -40%; 
+    transition: transform 0.3 ease;  
+    }
+    main > article > form > a.link > p, main > article > a.link > p:hover {
+        transform: scale(1.1);
+        color:gray;
+        
+    }
+
+    main > article > form {
+        position: absolute;
+        left:4% ;
+    }
     
-}
+    main > article > p {
+        position: relative;
+        left: -28%;
+        font-size: 2em;
 
-main > article > form > p > input{
-    width: 500px;
-    height:50px ;
-    border-radius: 10px;
-    border: none;
-}
-main > article > form > p > input#entrar{
-    width: 504px;
-    height:50px ;
-    border-radius: 10px;
-    border: none;
-    color: white;
-    background-color: rgb( 99 , 179 , 127 );
-    font-size: 20pt;
-}
 
-main > article > p > img {
-    background-color: white;
-    border-radius: 50%;
-    height: 60px;
-    position: relative;
-    top: 20px;
-    left: 11%;
-}
-main > article > a.link , form > a.link{
-    color: white;
-    font-size: 19pt;
-    position: relative;
-    top: 20%;
-    left: -61%;
-}
+    }
 
-div#cartao {
-   
-  
-}
+    main > article > form > label {
+        font-size: 2em;
+    }
+    main > article > a.link {
+        position: relative;
+        top:50px;
+        left:-48%;
+    }
+    main > div#cartao > p {
+        font-size: 1.8em;
+    }
 
-div#cartao > div#setinhas {
-    position:absolute ;
-    top: 76%;
-    left: 8%;
-    display: flex;
-    
-}
-div#cartao > div#setinhas > div#seta1 {
-    background-color:rgb( 219 , 251 , 239 ) ;
-    width: 30px;
-    height: 20px;
-    background-image: url('../imagens/esquerda.png');
-    background-position: center;
-    background-size:60%;
-    background-repeat: no-repeat;
-    padding: 5px;
-    border-radius: 5px;
-    
-}
-div#cartao > div#setinhas > div#seta2 {
-    background-color:rgb(18 , 40 , 28 );
-    width: 30px;
-    height: 20px;
-    background-image: url('../imagens/direita.png');
-    background-position: center;
-    background-size:60%;
-    background-repeat: no-repeat;
-    padding: 5px;
-    border-radius: 5px;
-}
+    main > div#cartao > div#minicartao > div#estrela {
+        width: 70px;
+        height: 70px;
+        background-color: #006040;
+        position: relative;
+        top: -31px;
+        left: 96%;
+        border-radius: 50%;
+    }
 
-main > div#cartao > h2 {
-    font-size: 2em;
-    text-indent: 10px;
-    text-align: left;
+    main > div#cartao > div#minicartao > div#estrela > img {
+        position: relative;
+        top: 13%;
+        left: 15%;
+    }
+    main > div#cartao > h2 {
+        font-size: 2.2em;
+        position: relative;
+        top: -5%;
+        text-align: center;
+    }
 
-}
+    main > div#cartao > p {
+        position: relative;
+        top: -12%;
+        font-size: 1.2em;
+    } 
+    main > div#cartao > h3 {
+        position: relative;
+        top: -14%;
+        font-size: 1.4em;
+        font-weight: bold;
+    }
 
-main > div#cartao > div#minicartao {
-    background-color: aliceblue;
-    margin-top: 100px;
-    color: black;
-    border-radius: 20px;
-    padding: 20px;
-}
-main > article > a.link , form > a.link{
-    text-align: right;
-
-    color: white;
-}
-main > div#cartao > div#minicartao > div#estrela {
-    width: 50px;
-    height: 50px;
-    background-color: #006040;
-    position: relative;
-    top: -31px;
-    left: 96%;
-    border-radius: 50%;
-}
-main > div#cartao > div#minicartao > div#estrela > img {
-    position: relative;
-    top: 1%;
-    left: 1%;
-    width: 50px;
-    height: 50px;
-}
-
-main > article > p {
-    font-size: 2em;
-}
-main > article > form > label {
-    font-size: 2em;
+    main > div#cartao > div#minicartao {
+        background-color: aliceblue;
+        margin-top: 40px;
+        color: black;
+        border-radius: 20px;
+        padding: 20px;
+    }
 }
