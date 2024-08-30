@@ -44,6 +44,8 @@
         height:57px ;
         border-radius: 10px;
         border: none;
+        position: relative;
+        top: -40px;
     }
     main > article > form > p > input#entrar{
         width:604px ;
@@ -58,7 +60,7 @@
         height: 60px;
         margin-right:14px;
         position: relative;
-        top: 450px;
+        top:500px;
         left: -13%;
     }
     main > article > a.link > p {
@@ -66,34 +68,36 @@
     position: relative; 
     top: 100%;   
     left: -40%; 
-    transition: transform 0.3 ease;  
-    }
-    main > article > form > a.link > p, main > article > a.link > p:hover {
-        transform: scale(1.1);
-        color:gray;
-        
     }
 
     main > article > form {
         position: absolute;
         left:4% ;
+        top: 30%;
+        padding: 20px;
     }
     
     main > article > p {
         position: relative;
-        left: -28%;
-        font-size: 2em;
+        left: -350px;
+        font-size: 1.3em;
 
 
     }
 
     main > article > form > label {
-        font-size: 2em;
+        font-size: 1.3em;
+        position: relative;
+        top: -40px;
     }
     main > article > a.link {
         position: relative;
         top:50px;
         left:-48%;
+        text-decoration: none
+    }
+    main > article > form > a.link {
+        text-decoration: none;
     }
     main > div#cartao > p {
         font-size: 1.8em;
