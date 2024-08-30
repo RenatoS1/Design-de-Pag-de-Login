@@ -61,7 +61,7 @@
         margin-right:14px;
         position: relative;
         top:500px;
-        left: -13%;
+        left: 7%;
     }
     main > article > a.link > p {
     font-size: 1.1em; 
@@ -94,10 +94,12 @@
         position: relative;
         top:50px;
         left:-48%;
-        text-decoration: none
+        text-decoration: none;
     }
     main > article > form > a.link {
         text-decoration: none;
+        position: relative;
+        top: -40px;
     }
     main > div#cartao > p {
         font-size: 1.8em;
